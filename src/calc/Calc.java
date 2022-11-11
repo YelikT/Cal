@@ -11,13 +11,13 @@ public class Calc {
 
         System.out.println("Please enter the first number: ");
         num1 = sc.nextInt();
-       // System.out.println("Enter the first operator ( + , - , * , / ):");
+        System.out.println("Enter the first operator ( + , - , * , / ):");
         operator1 = sc.next();
-       // System.out.println("Please enter the second number: ");
+        System.out.println("Please enter the second number: ");
         num2 = sc.nextInt();
-      //  System.out.println("Enter the second operator ( + , - , * , / ): ");
+        System.out.println("Enter the second operator ( + , - , * , / ): ");
         operator2 = sc.next();
-     //   System.out.println("Please enter the third number: ");
+        System.out.println("Please enter the third number: ");
         num3 = sc.nextInt();
         sc.close();
 
@@ -75,74 +75,7 @@ public class Calc {
                         System.out.println("Error! Please enter a valid input");
                 }
             }
-
-
-       /* if (operator1.equals("+") && operator2.equals("+") ){
-            result = num1 + num2 + num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("+") && operator2.equals("-") ){
-            result = num1 + num2 - num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("+") && operator2.equals("*") ){
-            result = num1 + num2 * num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("+") && operator2.equals("/") ) {
-            result = num1 + num2 / num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("-") && operator2.equals("+") ){
-            result = num1 - num2 + num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("-") && operator2.equals("-") ){
-            result = num1 - num2 - num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("-") && operator2.equals("*") ) {
-            result = num1 - num2 * num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("-") && operator2.equals("/") ){
-            result = num1 - num2 / num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("*") && operator2.equals("+") ){
-            result = num1 * num2 + num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("*") && operator2.equals("-") ) {
-            result = num1 * num2 - num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("*") && operator2.equals("*") ){
-            result = num1 * num2 * num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("*") && operator2.equals("/") ) {
-            result = num1 * num2 / num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("/") && operator2.equals("+") ){
-            result = num1 / num2 + num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("/") && operator2.equals("-") ) {
-            result = num1 / num2 - num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("/") && operator2.equals("*") ){
-            result = num1 / num2 * num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else if (operator1.equals("/") && operator2.equals("/") ) {
-            result = num1 * num2 / num3;
-            System.out.println(num1 + operator1 + num2 + operator2 + num3 + "=" + result);
-        }
-        else
-            System.out.println("Please enter valid number or operator.");*/
-        System.out.println(result);
+  
+        System.out.println(num1 + " " + operator1 + " " + num2 + " " + operator2 + " " + num3 + " = " +result);
     }
 }
